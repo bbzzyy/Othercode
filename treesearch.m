@@ -1,7 +1,7 @@
 function [ numdepend,dependcase ] = treesearch( test,testcase,dependsort )
-%UNTITLED ´Ë´¦ÏÔÊ¾ÓĞ¹Ø´Ëº¯ÊıµÄÕªÒª
+%treesearch function
 %input:
-%test£º the object test case need to be char
+%testï¼š the object test case need to be char
 
 postest=strfind(testcase,test);
 postest=~cellfun('isempty',postest);
