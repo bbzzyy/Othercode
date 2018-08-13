@@ -52,18 +52,3 @@ f0=x_f0.';
 plot(f(:,1),f(:,2));
 
 result=objf( mu )
-
-% mail='bizhongyan@gmail.com';
-% password='199464bizhongyan';
-% to='bizhongyan@gmail.com';
-% subject='matlab';
-% message='result get';
-% setpref('Internet','E_mail',mail);
-% setpref('Internet','SMTP_Server','smtp.gmail.com');
-% setpref('Internet','SMTP_Username',mail);
-% setpref('Internet','SMTP_Password',password);
-% props=java.lang.System.getProperties;
-% pp=props.setProperty('mail.smtp.auth','true'); %#ok
-% pp=props.setProperty('mail.smtp.socketFactory.class','javax.net.ssl.SSLSocketFactory');
-% pp=props.setProperty('mail.smtp.socketFactory.port','465');
-% sendmail(to, subject, message);
